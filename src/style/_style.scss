@@ -1,7 +1,54 @@
-body {
-  font-family: 'Montserrat';
-  background-color: $white;
-  color: $dark;
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  //width: 1920px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: $gray;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  width: 447px;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-list__item {}
+
+.nav-list__link {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark;
+}
