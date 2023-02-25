@@ -13,6 +13,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  width: 1920px;
+  margin: 0 auto;
 }
 
 .container {
@@ -21,7 +23,7 @@ body {
 }
 
 .header {
-  //width: 1920px;
+  width: 1920px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -53,7 +55,10 @@ body {
 
 .nav-list__item {}
 
-.main {}
+.main {
+  width: 1920px;
+  margin: 0 auto;
+}
 
 .welcome {
   background-color: #FFFFFF;
@@ -139,3 +144,52 @@ body {
 }
 
 .main-menu__item {}
+
+.background {
+  background: url(/src/img/Rectangle2.png) 0 0 no-repeat;
+}
+
+.sale {
+  width: 1920px;
+  height: 604px;
+  background: url(/src/img/Rectangle2.png) no-repeat;
+  display: flex;
+  align-items: center;
+
+}
+
+.sale__infobox {
+  width: 308px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sale__header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.sale__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.sale__btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  width: 170px;
+  height: 40px;
+  background: $green;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+}
