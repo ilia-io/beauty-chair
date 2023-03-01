@@ -13,8 +13,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  //max-width: 1920px;
-  // margin: 0 auto;
 }
 
 .container {
@@ -55,13 +53,6 @@ body {
     line-height: 16px;
     color: $dark;
   }
-}
-
-.nav-list__item {}
-
-.main {
-  // max-width: 1920px;
-  // margin: 0 auto;
 }
 
 .welcome {
@@ -133,8 +124,6 @@ body {
   }
 }
 
-.welcome__logo-img {}
-
 .main-menu {
   width: 675px;
   min-height: 19px;
@@ -151,9 +140,6 @@ body {
     text-decoration: none;
   }
 }
-
-.main-menu__item {}
-
 
 .sale {
   min-height: 604px;
@@ -200,9 +186,6 @@ body {
 
 }
 
-.sale-wrapper {}
-
-
 .goods {
   min-height: 954px;
   background: $gray;
@@ -224,8 +207,6 @@ body {
     color: #000000;
     margin-bottom: 5px;
   }
-
-  &__img {}
 
   &__items {
     display: flex;
@@ -353,15 +334,12 @@ body {
   }
 }
 
-.bonus-item__img {}
-
 
 .footer {
   min-height: 184px;
 }
 
 .contacts {
-  // max-width: 1920px;
   min-height: 120px;
   background-color: #FFFFFF;
   display: flex;
@@ -385,12 +363,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-.social-list__item {}
-
-.social-list__link {}
-
-.social-list__icon {}
 
 .contacts__adress {
   font-weight: 400;
